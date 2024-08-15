@@ -2,6 +2,7 @@
 
 Repository (Repo)
 Brach
+Conflict
 
 # Commands
 - git init //Biến dự án thành một git Repository
@@ -12,6 +13,9 @@ Brach
 - git commit -m 'note' //Lưu các thay đổi đã cbi trước đấy
 - git log //List các commit 
 - git log --oneline //gọn hơn
-- git checkout {branch name}
+- git checkout {branch name}// Chuyển sang branch đấy
 - git branch //Xem danh sách cách nhánh có trong repository
-- git checkout -b {branch name}
+- git branch {branch name} //Tạo một branch mới 
+- git checkout -b {branch name} //Tạo và chuyển sang một branch mới
+- git merge {branch name} //Đồng bộ nhưng gì thay đổi ở banch khác
+- git branch -d {branch name} //Xóa một branch
