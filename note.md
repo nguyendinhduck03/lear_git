@@ -1,6 +1,7 @@
 # Terms
 
 Repository (Repo)
+Brach
 
 # Commands
 - git init //Biến dự án thành một git Repository
@@ -9,3 +10,8 @@ Repository (Repo)
 - git add . //Thêm tất cả cá thay đổi vào vùng cbi
 - git reset //
 - git commit -m 'note' //Lưu các thay đổi đã cbi trước đấy
+- git log //List các commit 
+- git log --oneline //gọn hơn
+- git checkout {branch name}
+- git branch //Xem danh sách cách nhánh có trong repository
+- git checkout -b {branch name}
