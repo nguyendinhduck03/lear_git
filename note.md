@@ -24,3 +24,5 @@ Remote
 - git push {remote name} {branch name}//đẩy repository hiện tại lên github
 - git remote add {name (origin)} {remote name} //Đặt tên cho remote đấy, thường là origin 
 -> git push {name (origin)} {branch name} //Đẩy lên nhanh hơn
+- git fetch origin 
+- git checkout -b {branch name} {remote name/branch name}
