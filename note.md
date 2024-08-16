@@ -26,3 +26,5 @@ Remote
 -> git push {name (origin)} {branch name} //Đẩy lên nhanh hơn
 - git fetch origin 
 - git checkout -b {branch name} {remote name/branch name}
+- git pull //Kéo dữ liệu của repository về
+- git clone //Tạo bản sao và lưu repo đấy về
