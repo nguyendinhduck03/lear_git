@@ -1,8 +1,10 @@
 # Terms
 
 Repository (Repo)
-Brach
+Branch
 Conflict
+Local
+Remote
 
 # Commands
 - git init //Biến dự án thành một git Repository
@@ -19,3 +21,4 @@ Conflict
 - git checkout -b {branch name} //Tạo và chuyển sang một branch mới
 - git merge {branch name} //Đồng bộ nhưng gì thay đổi ở branch khác
 - git branch -d {branch name} //Xóa một branch
+- git push //
