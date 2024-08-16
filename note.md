@@ -21,6 +21,6 @@ Remote
 - git checkout -b {branch name} //Tạo và chuyển sang một branch mới
 - git merge {branch name} //Đồng bộ nhưng gì thay đổi ở branch khác
 - git branch -d {branch name} //Xóa một branch
-- git push {liên kết git} {branch name}//đẩy repository hiện tại lên github
-- git remote add {name (origin)} {liên kết git} //Đặt tên cho liên kết git đấy, thường là origin 
+- git push {remote name} {branch name}//đẩy repository hiện tại lên github
+- git remote add {name (origin)} {remote name} //Đặt tên cho remote đấy, thường là origin 
 -> git push {name (origin)} {branch name} //Đẩy lên nhanh hơn
